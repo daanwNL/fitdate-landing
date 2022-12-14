@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab287e8f16.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-secondary" id="secondary-nav">
+        <div class="container d-flex justify-content-center">
+              <a class="nav-link" href="#pre-register">Pre-register now and get Fitdate free for life</a>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top" id="primary-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#">Fitdate.app</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item" id="primary-nav-pre-register">
+                <a class="nav-link bg-secondary btn" href="#pre-register">Pre-register</a>
+              </li>
+              <li class="nav-item" id="primary-nav-about">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" id="primary-nav-contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container-xl col-xxl-8 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <a href="#pre-register"><img src="smartphone.png" class="d-block mx-lg-auto img-fluid" alt="smartphone app" loading="lazy" id="hero-img-smartphone"></a>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">Date single athletes</h1>
+              <p class="lead">Running, road cyling, padel, fitness, walking, dance & more. Explore profiles online & plan a fitdate.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+               <button type="button" class="btn btn-secondary btn-lg px-4" onclick="window.location.href='#pre-register';">Pre-register now</button>
+               <button type="button" class="btn btn-outline-white btn-lg px-4" onclick="window.location.href='#more-info';">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pre-register">
+        <div class="container d-flex flex-column col-5">
+          <div id="pre-registration-offer-wrapper" class="d-flex flex-column align-items-center p-4 rounded">
+            <div id="offer-content" class="text-center">
+              <h3 class="text-primary font-weight-bold">Limited time offer</h3>
+              <h2 class="font-roboto-slab">Pre-register before May 31st 2023</h2>
+            </div>
+            <div class=" bg-primary mt-4 p-5 rounded" id="pre-register">
+              <form id="form-pre-register">
+                <h3 class="text-white font-roboto-slab">Enjoy Fitdate.app free for life</h3>
+                <div class="row">
+                  <div class="col">
+                    <label for="email" class="">Email address</label>
+                    <input type="email" class="form-control" placeholder="E.g. 'jean.c.damme@gmail.com'" id="email" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <input type="submit" value="Get Fitdate.app free for life " class="form-control btn btn-secondary" id="pre-register-submit-1">
+                  <aside>After submitting you'll receive an email, where you can add additional info to complete your pre-registration.</aside>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section id="more-info">
+        <div class="container d-flex flex-row no-wrap py-5 px-0">
+          <div class="col-md-4 mx-3">
+            <i class="fa-solid fa-circle-info"></i>
+            <h3 class="mt-3">Features</h3>
+            <p>Fitdate.app will help you find love, while also focussing on your shared love for sports. You can for instance filter on rock climbers, to find better matches. Imagine Tinder, but focussed on fit singles with a passion they want to share with each other.</p>
+          </div>
+          <div class="col-md-4 mx-3">
+            <i class="fa-brands fa-google-play"></i>
+            <h3 class="mt-3">App</h3>
+            <p>Our app will initially launch as a web app. After that we intend to develop an app for Android users. Next on our road map will be Apple users. Follow us to keep track of development updates. This way you'll be among the first to set up fun fitdates.</p>
+          </div>
+          <div class="col-md-4 mx-3">
+            <i class="fa-solid fa-tag"></i>
+            <h3 class="mt-3">Pricing</h3>
+            <p>We're still in early-stage development, so we're not sure about our pricing model yet. We're focussing on creating awesome experiences first. We will switch to paid plans when our community is large enough. So make sure you pre-register, to ensure your lifetime-free plan for Fitdate.app.</p>
+          </div>
+        </div>
+      </section>
+      </main>
+      <footer>
+        <div class="container py-3" id="copyright-area">
+          <a href="https://www.zeerzout.nl/" target="_blank" class="m-0">© Copyright Zeer Zout 2022</a>
+        </div>
+      </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
